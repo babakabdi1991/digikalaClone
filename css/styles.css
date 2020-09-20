@@ -1,0 +1,231 @@
+body{
+    font-family: yekan;
+}
+
+.container-fluid{
+    max-width: 1220px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#header{
+    font-size: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+#header .badge{
+    position: relative;
+    left: 15px;
+    bottom: 15px;
+    font-size: 12px;
+}
+
+#header ul li:hover{
+    color: red;
+    cursor: pointer;
+}
+
+#header .btn-success{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+#header .input-group input{
+    min-width: 250px;
+}
+#header ul{
+    margin-bottom: 0.5rem !important;
+}
+#navbarNavAltMarkup .nav{
+    padding: 8px;
+}
+
+#navbarNavAltMarkup .navbar-nav a{
+    color: #555;
+    padding: 6px 15px;
+    font-size: 13px;
+}
+ 
+#navbarNavAltMarkup .navbar-nav a:hover{
+    color:black;
+}
+
+#main{
+    background-color: #eeeff1;
+    padding: 15px;
+}
+
+.design-title{
+    color: #494;
+    padding: 0 15px;
+}
+
+.design-box{
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 12px;
+    box-shadow: 0 0 4px 0 rgba(0 , 0, 0 , 0.15);
+}
+.design-content a{
+    font-size: 13px;
+}
+.design-content h4{
+    line-height: 0.8;
+}
+.design-content p{
+    font-size: 13px;
+}
+.sidebar-news-image{
+    width: 30%;
+}
+
+.sidebar-news-image img:hover{
+    box-shadow: 0 3px 6px 0 rgba(200 , 30, 30 , 0.9)
+}
+.sidebar-news-content{
+    line-height: 1;
+}
+.sidebar-news-content a{
+    font-size: 14px;
+    line-height: 1.2;
+}
+.sidebar-news-content a:hover{
+    color: red !important;
+}
+.sidebar-news-content p{
+    font-size: 11px;
+    
+}
+
+#carouselExampleInterval{
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+#carousel-footer{
+    background-color: rgba(60,70,90,0.6);
+    height: 50px;
+    position: static;
+}
+.carousel-indicators{
+    position: static;
+    margin: 0;
+}
+.carousel-indicators li{
+    width: 20%;
+    position: relative;
+    font-size: 12px;
+    text-align: center;
+    margin:0;
+    height: 100%;
+    padding-top: 4px;
+    padding-bottom: 7px;
+    color:white;
+/*    right:30px;*/
+    text-indent: 0;
+    background: transparent;
+}
+
+.carousel-indicators li.active{
+    background-color: white;
+    color: #444;
+}
+
+.carousel-indicators li.active::before{
+    content: "" ;
+    position: absolute;
+    width: 0;
+    height: 0;
+    bottom: 49px;
+    right: 45%;
+    border:10px solid transparent;
+    border-bottom-color: white;
+    
+}
+
+#discountItems{
+    margin: 0 -4px;
+}
+
+.owl-items .card-title{
+    font-size: 12px;
+}
+
+.owl-items .card-text{
+    font-size: 13px;
+}
+.owl-items img{
+    padding: 10px;
+    padding-bottom: 15px;
+}
+.owl-carousel .owl-nav button{
+    outline: none;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    border-style: none;
+    font-size: 50px;
+    bottom: 50%;
+    right: 20px;
+    position: absolute;
+    
+}
+.owl-carousel .owl-nav button.owl-next{
+    border-style: none;
+    font-size: 50px;
+    bottom: 50%;
+    left: 20px;
+    position: absolute;
+}
+#footer p{
+    font-size: 12px;
+}
+
+#second-footer{
+    background-color: black;
+    padding: 25px 0;
+}
+#second-footer li{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+#second-footer li a:hover{
+    color: white !important;
+}
+#second-footer .btn{
+    min-width: 100px;
+    font-size: 14px;
+}
+#second-footer input{
+    max-width: 400px;
+    font-size: 14px;
+}
+
+#second-footer .links a{
+    background-color: #333;
+    color:white;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    line-height: 2.25em;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+#second-footer .links a:hover{
+    background-color: #6d6;
+}
+
+@media(min-width: 768px){
+    #header{
+        font-size: 14px;
+    }
+    .navbar{
+        padding: 0;
+    }
+}
